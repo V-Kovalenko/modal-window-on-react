@@ -1,0 +1,15 @@
+@import '../../assets/scss/allBtn.scss';
+.button{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  &__button {
+    @include allBtn
+  }
+  &__button:hover {
+    color: deeppink;
+    font-size: 1.2rem;
+    transform: scale(1.2);
+    transition: all .3s;
+  }
+}
